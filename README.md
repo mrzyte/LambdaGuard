@@ -6,7 +6,7 @@
 [![](https://img.shields.io/github/issues-pr/Skyscanner/LambdaGuard)](https://github.com/Skyscanner/LambdaGuard/pulls)
 [![](https://img.shields.io/pypi/dm/LambdaGuard)](https://img.shields.io/pypi/dm/LambdaGuard)
 
-AWS Lambda is an event-driven, serverless computing platform provided by Amazon Web Services. It is a computing service that runs code in response to events and automatically manages the computing resources required by that code. 
+AWS Lambda is an event-driven, serverless computing platform provided by Amazon Web Services. It is a computing service that runs code in response to events and automatically manages the computing resources required by that code.
 
 LambdaGuard is an AWS Lambda auditing tool designed to create asset visibility and provide actionable results. It provides a meaningful overview in terms of statistical analysis, AWS service dependencies and configuration checks from the security perspective.
 
@@ -33,7 +33,7 @@ You will need a set of AWS access keys and permissions to run LambdaGuard.
 ```
 make aws
 ```
-Create a profile in `~/.aws/credentials` with the newly created keys. 
+Create a profile in `~/.aws/credentials` with the newly created keys.
 ```
 [LambdaGuardProfile]
 aws_access_key_id = ...
@@ -55,6 +55,7 @@ Alternatively, you can use the keys directly as CLI arguments (not recommended).
 
 ### Download sonar-scanner-cli
 - https://github.com/SonarSource/sonar-scanner-cli
+- `docker pull mwizner/sonarqube:8.7.1-community`
 
 ### Build SonarQube
 - `make sonarqube`
