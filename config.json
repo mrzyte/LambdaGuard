@@ -1,0 +1,6 @@
+{
+    "command": "sonar-scanner -X",
+    "url": "http://localhost:9000",
+    "login": "admin",
+    "password": "admin1"
+}
